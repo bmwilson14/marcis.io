@@ -1,0 +1,90 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body:before {
+          content: "";
+          background-color: #fff;
+          opacity: .75;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+      }
+
+      .mainHeader {
+          background: black;
+          height: 50px;
+          text-align: center;
+          width: 100%;
+          position: relative;
+          z-index: 2;
+      }
+
+      .mainHeader a  {
+          font-family: 'Work Sans', sans-serif;
+          color: white;
+          font-size: 1.5rem;
+          line-height: 50px;
+          margin: 0;
+          text-decoration: none;
+      }
+
+      .mainHeader a:hover {
+        color: #0087E2;
+      }
+
+.hidden {
+  display: none;
+}
+
+.aboutMarcis {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+.playlistTiles {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 10px;
+  height: auto;
+  background-color: #fff;
+  color: #444;
+  margin: 40px;
+  justify-content: center;
+
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  font-size: 150%;
+  margin-top: 5px;
+}
+
+.playListBoxTitle {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.trackList {
+  font-size: 18px;
+  list-style: none;
+}
+
+.playlistButton {
+  
+}
